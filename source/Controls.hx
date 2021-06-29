@@ -92,22 +92,22 @@ enum abstract Action(String) to String from String
 @:enum
 abstract Action(String) to String from String
 {
-	var UP = "up";
-	var LEFT = "left";
-	var RIGHT = "right";
-	var DOWN = "down";
-	var UP_P = "up-press";
-	var LEFT_P = "left-press";
-	var RIGHT_P = "right-press";
-	var DOWN_P = "down-press";
-	var UP_R = "up-release";
-	var LEFT_R = "left-release";
-	var RIGHT_R = "right-release";
-	var DOWN_R = "down-release";
+	var W = "up";
+	var A = "left";
+	var D = "right";
+	var S = "down";
+	var W_P = "up-press";
+	var A_P = "left-press";
+	var D_P = "right-press";
+	var S_P = "down-press";
+	var W_R = "up-release";
+	var A_R = "left-release";
+	var D_R = "right-release";
+	var S_R = "down-release";
 	var ACCEPT = "accept";
 	var BACK = "back";
 	var PAUSE = "pause";
-	var RESET = "reset";
+	var R = "reset";
 	var CHEAT = "cheat";
 
 	var L1 = "l1";
